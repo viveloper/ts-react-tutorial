@@ -1,9 +1,10 @@
 import React from 'react';
-import TodoApp from './containers/TodoApp';
+// import TodoApp from './containers/TodoApp';
 // import CounterContainer from './containers/CounterContainer';
+import GithubProfileLoader from './containers/GithubProfileLoader';
 
 function App() {
-  return <TodoApp />;
+  return <GithubProfileLoader />;
 }
 
 export default App;
